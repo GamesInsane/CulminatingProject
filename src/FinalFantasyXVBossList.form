@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="Title" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="29" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="bossList" min="-2" pref="147" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="bossStats" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Title" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bossStats" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bossList" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="188" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Title">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Rafika" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Final Fantasy XV Boss Stats!!!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bossStats">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Check this bosses stats"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bossStatsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="bossList">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="maximumRowCount" type="int" value="99"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="37">
+                <StringItem index="0" value="Arachne"/>
+                <StringItem index="1" value="Aramusha"/>
+                <StringItem index="2" value="Ardyn"/>
+                <StringItem index="3" value="Bandersnatch"/>
+                <StringItem index="4" value="Behemoth King"/>
+                <StringItem index="5" value="Bennu"/>
+                <StringItem index="6" value="Bilr&#xf6;st"/>
+                <StringItem index="7" value="Bloodhorn"/>
+                <StringItem index="8" value="Catoblepas"/>
+                <StringItem index="9" value="Chandravarma"/>
+                <StringItem index="10" value="Deathclaw"/>
+                <StringItem index="11" value="Ifrit"/>
+                <StringItem index="12" value="Jabberwock"/>
+                <StringItem index="13" value="Jormungand"/>
+                <StringItem index="14" value="Kengo"/>
+                <StringItem index="15" value="Lackhmu Flan"/>
+                <StringItem index="16" value="Leviathan"/>
+                <StringItem index="17" value="MA-X Cuirass"/>
+                <StringItem index="18" value="MA-X Dux"/>
+                <StringItem index="19" value="MA-X Maniple"/>
+                <StringItem index="20" value="Mahanaga"/>
+                <StringItem index="21" value="Malbodoom"/>
+                <StringItem index="22" value="Malboro"/>
+                <StringItem index="23" value="Manxom"/>
+                <StringItem index="24" value="Melusine"/>
+                <StringItem index="25" value="Mictlantecihuatl"/>
+                <StringItem index="26" value="Naga"/>
+                <StringItem index="27" value="Nagalfar"/>
+                <StringItem index="28" value="Omega"/>
+                <StringItem index="29" value="Phalaris"/>
+                <StringItem index="30" value="Quetzalcoatl"/>
+                <StringItem index="31" value="Ravus"/>
+                <StringItem index="32" value="Rogue Behemoth"/>
+                <StringItem index="33" value="Rogue Karlabos"/>
+                <StringItem index="34" value="The Mystic"/>
+                <StringItem index="35" value="Titan"/>
+                <StringItem index="36" value="Treant"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selectedItem" source="bossStats" target="bossList" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bossListActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
