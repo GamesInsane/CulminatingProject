@@ -7,6 +7,7 @@ import java.util.*;
  * author Tom Hoogkamp
  * no return statements
  * june 22, 2018
+ * this code is to display the selected bosses stats in an easy to read format.
  */
 
 /**
