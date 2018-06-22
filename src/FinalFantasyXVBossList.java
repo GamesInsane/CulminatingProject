@@ -5,6 +5,8 @@ import java.util.*;
  * author Tom Hoogkamp
  * no return statements
  * june 22, 2018
+ * this code is to help people playing Final Fantasy XV when they feel either
+ * underleveled or underprepared to fight a boss.
  */
 
 /**
